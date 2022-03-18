@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #939393;
+    font-family: Arial, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+    background-color: #283046;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #18202F;
+    width: 100%;
+}
+
+header nav {
+    width: 1140px;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#workspace {
+    margin-top: 20px;
+    padding: 15px 50px;
+    text-shadow: 1px 2px 3px gray;
+    background-color: #283046;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}
+
+#phpmyadmin {
+    font-style: italic;
+    background-color: rgba(91, 91, 91, .3);
+    border-radius: 8px;
+}
+
+#phpmyadmin a {
+    display: block;
+    color: #FF9800 !important;
+    padding: 8px 12px;
+}
+
+#php {
+    color: #656598;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #18202F;
+    padding: 30px;
+    width: 100%;
+    font-size: 18px;
+}
+
+footer p a {
+    color: #635CCC;
+    font-weight: bold;
+}
+
+
+/*---------*/
+
+
+#main {
+    margin-top: 120px;
+}
+
+.dir-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    height: 90px;
+    border-bottom: 1px solid rgba(128, 128, 128, .3);
+}
+
+.inner-values {
+    display: flex;
+    align-items: center;
+}
+
+.dir-item a {
+    display: block;
+}
+
+.dir-item .values {
+    color: #3a588e;
+    font-weight: bold;
+}
+
+.dir-item .enter {
+    font-size: 18px;
+    background-color: #5e8949;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 8px;
+    transition: .2s all ease-in-out;
+}
+.dir-item .enter:hover{
+    background-color: #4d733b;
+}
+
+.inner-item {
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+.arrows {
+    margin-left: 8px;
+}
