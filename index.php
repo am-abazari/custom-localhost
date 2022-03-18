@@ -26,7 +26,7 @@
         <?php
         $dir = './';
         foreach (scandir($dir) as $value) {
-            if ($value != "icon.ico" && $value != ".idea" && $value != "index.css" && $value != "index.php" && $value != "Deleted" && $value != "." && $value != "..") {
+            if ($value != ".git" && $value != "icon.ico" && $value != "icon.ico" && $value != ".idea" && $value != "index.css" && $value != "index.php" && $value != "Deleted" && $value != "." && $value != "..") {
                 echo "
                     <div class='dir-item'>
                         <div class='inner-values'>
